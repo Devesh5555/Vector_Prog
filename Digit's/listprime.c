@@ -10,7 +10,7 @@ int main(){
 
 	for(i=min;i<=max;i++){
 	for(j=2;j<=i/2;j++){
-	
+	     cnt=1;
 		if(i%j==0){
 		
 			 cnt=0;
@@ -18,17 +18,15 @@ int main(){
 		
 		}
 
-		 if(cnt==1){
-
-                printf("%d,",i);
+		
         }
 	}
-	/*
+	
 	if(cnt==1){
 	
 		printf("%d,",i);
 	}
-	*/
+	
 
 	}
 
