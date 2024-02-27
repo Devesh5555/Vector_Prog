@@ -9,8 +9,9 @@ int main(){
 	scanf("%d",&max);
 
 	for(i=min;i<=max;i++){
+		   cnt=1;
 	for(j=2;j<=i/2;j++){
-	     cnt=1;
+	  
 		if(i%j==0){
 		
 			 cnt=0;
@@ -20,17 +21,10 @@ int main(){
 
 		
         }
-	}
-	
-	if(cnt==1){
+		if(cnt==1){
 	
 		printf("%d,",i);
+		}
 	}
-	
-
-	}
-
-	printf("\n");
-
 
 }
