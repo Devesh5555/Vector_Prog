@@ -19,7 +19,7 @@ int main(){
 
 	for(a=1;a<=n;a++){
 	
-		for(b=1;b<=2*n-1;b++){
+		for(b=1;b<2*n;b++){
 		
 			if(b>=a&&b<n+a)
 				printf("*");
