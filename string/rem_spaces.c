@@ -1,5 +1,11 @@
 #include<stdio.h>
 #include<string.h>
+/*
+
+          I/p                            o/p
+    "   abc   e    d   "	        "abc e d"
+
+*/
 int main(){
 
 	char arr[100];
