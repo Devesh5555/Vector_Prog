@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<string.h>
+/*
 
+          I/p                o/p
+	"embedded"	  "embd"
+
+*/
 int main(){
 
 	char arr[30];
